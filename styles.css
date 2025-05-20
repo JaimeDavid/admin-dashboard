@@ -33,7 +33,11 @@
     background-color: lightgreen;
     border: 1px solid black;
     grid-column:  2/ 3;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
+
+
 
 
 
