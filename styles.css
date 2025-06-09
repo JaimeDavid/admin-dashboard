@@ -43,13 +43,13 @@
 
 .searchbar{
     grid-column: 1 / 2;
-    border: 1px solid red;
+    
 }
 
 .header-logos{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    border: 1px solid black;
+   
 }
 
 .greeting{
@@ -65,8 +65,7 @@
 }
 /*Style for content*/
 .content{
-    background-color: var(--light-gray);
-    border: 1px solid black;
+    background-color: var(--light-gray);    
     grid-column:  2/ 3;
     display: grid;
     grid-template-columns: 4fr 1fr;    
