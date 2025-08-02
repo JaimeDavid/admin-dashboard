@@ -30,6 +30,10 @@
     fill: var(--white);
 }
 
+#communities-item{
+    height: 1.8rem;
+}
+
 #dashboard-icon{
     height: 2.5rem;
     fill: var(--white);
@@ -47,28 +51,35 @@
 .sidebar-header{
     display: flex;
     flex-direction: row;
-    align-items: flex-start; 
-    gap: 10px;   
+    align-items: center; 
+    justify-content: center;
+    gap: 5px;   
 }
 
 .nav-item{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 2vh;
+    display: flex;
+    align-items: flex-start;
+    height: 15%;
+   
 }
     /*Positioning elements*/
 .sidebar-header{
-    height: 10vh;
-    
-    margin-top: 2vh;
-
+    height: 10vh; 
 }
 
 .sidebar-nav{
     height: 25vh;
-    margin-bottom: 10vh;
+    margin-bottom: 10vh;    
     
 }
+
+.nav-item-icon{
+    height: 100%;
+    margin-right: 25px;
+ 
+
+}
+
     /* styling*/
 .sidebar h2{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -82,9 +93,7 @@
     margin-right: 4rem;
 }
 
-.sidebar div{
-    border: 1px solid red;
-}
+
 
 
 
