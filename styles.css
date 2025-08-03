@@ -91,12 +91,8 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--white);
     margin-right: 4rem;
+    font-weight: bold;
 }
-
-
-
-
-
 
 
 
@@ -114,10 +110,25 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 3fr 1fr;
 }
+#search-icon{
+  height: 1.1rem;  
+}
 
 .searchbar{
     grid-column: 1 / 2;
-    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin-left: 2rem;
+}
+
+input{
+  width: 33rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  background-color: var(--light-gray);
+  border:none;
 }
 
 .header-logos{
