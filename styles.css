@@ -110,10 +110,10 @@
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 3fr 1fr;
 }
-#search-icon{
-  height: 1.1rem;  
+#search-icon, #bell-icon{
+  height: 1.5rem;  
 }
-
+/*Styling for searchbar part of header*/
 .searchbar{
     grid-column: 1 / 2;
     display: flex;
@@ -134,7 +134,18 @@ input{
 .header-logos{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-logos img{
+    height: 2.5rem;
+}
+
+.header-logos p{
+    font-weight: bold;
 }
 
 .greeting{
