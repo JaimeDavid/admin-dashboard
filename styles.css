@@ -160,6 +160,11 @@ input{
 
 .header-logos p{
     font-weight: bold;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-bottom .greeting-text p, h3{
+ font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
 }
 /*styling bottom part of header*/
 
@@ -193,6 +198,7 @@ button{
     height: 2rem;
     color: var(--white);
     border: none;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
 .buttons{
@@ -208,19 +214,36 @@ button{
     background-color: var(--light-gray);    
     grid-column:  2/ 3;
     display: grid;
-    grid-template-columns: 4fr 1fr;    
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 7vh 93vh;    
 }
 
+.content-texts{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;    
+}
+
+.content-texts p{
+    font-weight: bold;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .projects{
     display: grid;
-    grid-template-rows: 1fr repeat(3, 3fr);
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows:  repeat(3, 3fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: 1 / 2;
 }
 
-.projects p{
-    grid-column:1 / 3 ;
-    
+.project{
+    height: 22vh;
+    width: 30vw;
+    background-color: var(--white);
 }
+
+
 
 .project{
     border: 1px solid red;
